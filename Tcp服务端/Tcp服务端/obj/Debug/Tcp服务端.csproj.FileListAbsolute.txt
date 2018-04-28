@@ -1,0 +1,7 @@
+C:\Users\ZhaoShuo\source\repos\Tcp服务端\Tcp服务端\bin\Debug\Tcp服务端.exe.config
+C:\Users\ZhaoShuo\source\repos\Tcp服务端\Tcp服务端\bin\Debug\Tcp服务端.exe
+C:\Users\ZhaoShuo\source\repos\Tcp服务端\Tcp服务端\bin\Debug\Tcp服务端.pdb
+C:\Users\ZhaoShuo\source\repos\Tcp服务端\Tcp服务端\obj\Debug\Tcp服务端.csprojResolveAssemblyReference.cache
+C:\Users\ZhaoShuo\source\repos\Tcp服务端\Tcp服务端\obj\Debug\Tcp服务端.csproj.CoreCompileInputs.cache
+C:\Users\ZhaoShuo\source\repos\Tcp服务端\Tcp服务端\obj\Debug\Tcp服务端.exe
+C:\Users\ZhaoShuo\source\repos\Tcp服务端\Tcp服务端\obj\Debug\Tcp服务端.pdb
