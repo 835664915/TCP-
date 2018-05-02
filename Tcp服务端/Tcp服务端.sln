@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tcp服务端", "Tcp服务�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tcp客户端", "Tcp客户端\Tcp客户端.csproj", "{D84DD270-1110-4B98-98A5-F74F94355912}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "转换成字节数组", "转换成字节数组\转换成字节数组.csproj", "{E7BC3FAB-8026-4BCC-9D39-F545680CCF87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySQL数据库", "MySQL数据库\MySQL数据库.csproj", "{D93762A2-8B02-4C36-AA8A-4BB32C5F907D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{D84DD270-1110-4B98-98A5-F74F94355912}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D84DD270-1110-4B98-98A5-F74F94355912}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D84DD270-1110-4B98-98A5-F74F94355912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7BC3FAB-8026-4BCC-9D39-F545680CCF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7BC3FAB-8026-4BCC-9D39-F545680CCF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7BC3FAB-8026-4BCC-9D39-F545680CCF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7BC3FAB-8026-4BCC-9D39-F545680CCF87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D93762A2-8B02-4C36-AA8A-4BB32C5F907D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93762A2-8B02-4C36-AA8A-4BB32C5F907D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93762A2-8B02-4C36-AA8A-4BB32C5F907D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93762A2-8B02-4C36-AA8A-4BB32C5F907D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,7 +15,7 @@ namespace Tcp客户端
 
             Socket clickSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
-            clickSocket.Connect(new IPEndPoint(IPAddress.Parse("192.168.1.102"), 88));
+            clickSocket.Connect(new IPEndPoint(IPAddress.Parse("192.168.10.122"), 88));
 
 
            
@@ -29,14 +29,29 @@ namespace Tcp客户端
 
 
 
-            while (true)
-            {
-                string s = Console.ReadLine();
+            //while (true)
+            //{
+            //    string s = Console.ReadLine();
+            //    if (s=="c")
+            //    {
 
-                byte[] data = Encoding.UTF8.GetBytes(s);
-                clickSocket.Send(data);
+            //        clickSocket.Close();
+            //        return;
+            //    }
+
+
+            //    byte[] data = Encoding.UTF8.GetBytes(s);
+            //    clickSocket.Send(data);
+            //}
+
+            //-----粘包------------
+            for (int i = 0; i < 100; i++)
+            {
+               // byte[] data = Encoding.UTF8.GetBytes(i.ToString());
+                clickSocket.Send(Massage.GetBytes(i.ToString()+"长度"));
             }
 
+          
             Console.ReadKey();
             clickSocket.Close();
 

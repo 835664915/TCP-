@@ -1,0 +1,7 @@
+F:\VSFile\Tcp服务端\转换成字节数组\bin\Debug\转换成字节数组.exe.config
+F:\VSFile\Tcp服务端\转换成字节数组\bin\Debug\转换成字节数组.exe
+F:\VSFile\Tcp服务端\转换成字节数组\bin\Debug\转换成字节数组.pdb
+F:\VSFile\Tcp服务端\转换成字节数组\obj\Debug\转换成字节数组.csprojResolveAssemblyReference.cache
+F:\VSFile\Tcp服务端\转换成字节数组\obj\Debug\转换成字节数组.csproj.CoreCompileInputs.cache
+F:\VSFile\Tcp服务端\转换成字节数组\obj\Debug\转换成字节数组.exe
+F:\VSFile\Tcp服务端\转换成字节数组\obj\Debug\转换成字节数组.pdb

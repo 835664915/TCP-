@@ -1,0 +1,10 @@
+F:\VSFile\Tcp服务端\MySQL数据库\bin\Debug\MySQL数据库.exe.config
+F:\VSFile\Tcp服务端\MySQL数据库\bin\Debug\MySQL数据库.exe
+F:\VSFile\Tcp服务端\MySQL数据库\bin\Debug\MySQL数据库.pdb
+F:\VSFile\Tcp服务端\MySQL数据库\bin\Debug\MySql.Data.dll
+F:\VSFile\Tcp服务端\MySQL数据库\bin\Debug\MySql.Data.xml
+F:\VSFile\Tcp服务端\MySQL数据库\obj\Debug\MySQL数据库.csprojResolveAssemblyReference.cache
+F:\VSFile\Tcp服务端\MySQL数据库\obj\Debug\MySQL数据库.csproj.CoreCompileInputs.cache
+F:\VSFile\Tcp服务端\MySQL数据库\obj\Debug\MySQL数据库.csproj.CopyComplete
+F:\VSFile\Tcp服务端\MySQL数据库\obj\Debug\MySQL数据库.exe
+F:\VSFile\Tcp服务端\MySQL数据库\obj\Debug\MySQL数据库.pdb
