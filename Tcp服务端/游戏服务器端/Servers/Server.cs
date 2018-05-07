@@ -108,5 +108,14 @@ namespace GameServer.Servers
 
         }
 
+        public void HandleRequst(RequstCode requstCode, ActionCode actionCode, string data, Client client)
+        {
+
+
+        }
+
+
+
+
     }
 }

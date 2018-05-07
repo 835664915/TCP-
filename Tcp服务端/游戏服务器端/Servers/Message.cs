@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -65,11 +66,19 @@ namespace GameServer.Servers
                 int count = BitConverter.ToInt32(_data, 0);
                 if (_startIndex - 4 >= count)
                 {
-                    Console.WriteLine(_startIndex);
-                    Console.WriteLine(count);
-                    //从第四个开始都数据，因为0-3为数据长度
-                    string s = Encoding.UTF8.GetString(_data, 4, count);
-                    Console.WriteLine("解析出一条数据" + s);
+                    //Console.WriteLine(_startIndex);
+                    //Console.WriteLine(count);
+                    ////从第四个开始都数据，因为0-3为数据长度
+                    //string s = Encoding.UTF8.GetString(_data, 4, count);
+                    //Console.WriteLine("解析出一条数据" + s);
+                    
+                    //解析数据前面的第一个枚举
+                    RequstCode requstCode = (RequstCode)BitConverter.ToInt32(_data, 4);
+                    //解析数据前面的第二个枚举
+                    ActionCode actionCode = (ActionCode)BitConverter.ToInt32(_data,8);
+
+                    //解析数据
+                    string s = Encoding.UTF8.GetString(_data, 12, count-8);
 
                     //将剩余的数据移动到前面，更新数据,第一个参数是要复制的数组，第二个是说从什么位置开始复制，第三个是说复制到一个新的数组，第四个说从0开始，第5个是说数组的长度
                     Array.Copy(_data, count + 4, _data, 0, _startIndex - 4 - count); ;
